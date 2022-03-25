@@ -7,6 +7,9 @@ import cv2
 from datetime import datetime
 from tqdm import tqdm
 
+# Import everything needed to edit/save/watch video clips
+from moviepy.editor import VideoFileClip
+
 
 class FRAME :
     fps:float
